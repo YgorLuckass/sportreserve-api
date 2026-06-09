@@ -1,0 +1,11 @@
+{
+  "name": "sportreserve-api",
+  "version": "1.0.0",
+  "description": "Back-end JSON Server para o SportReserve",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
